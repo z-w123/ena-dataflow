@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+#This script takes an input file containing a list of fasta headers (each header on new line) and creates chromosome list files for those fasta files
+
 INPUTFILE=$1
 
 #read the headers file line by line and append to an array
